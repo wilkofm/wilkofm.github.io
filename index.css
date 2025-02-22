@@ -31,7 +31,7 @@
 footer {
   position: absolute;
   padding-left: 14px;
-  padding-top: 270px;
+  padding-top: 225px;
   display: flex;
   flex-direction: row;
   gap: 2px;
@@ -45,13 +45,17 @@ footer a {
   align-items: center;
 }
 
+footer img {
+  border-radius: 100px;
+}
+
 @media only screen and (max-width: 800px) {
   .profile-image {
     padding-top: 14px;
   }
   .profile-image img {
     width: 100px;
-    height: 125px;
+    height: 100px;
   }
   .body {
     position: absolute;
@@ -68,7 +72,7 @@ footer a {
   footer {
     position: absolute;
     padding-left: 12px;
-    padding-top: 128px;
+    padding-top: 105px;
     display: flex;
     flex-direction: row;
     gap: 2px;
@@ -76,5 +80,6 @@ footer a {
   footer img {
     width: 15px;
     height: 15px;
+    border-radius: 100px;
   }
 }
