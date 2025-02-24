@@ -31,7 +31,7 @@
 footer {
   position: absolute;
   padding-left: 14px;
-  padding-top: 225px;
+  padding-top: 240px;
   display: flex;
   flex-direction: row;
   gap: 2px;
@@ -72,7 +72,7 @@ footer img {
   footer {
     position: absolute;
     padding-left: 12px;
-    padding-top: 105px;
+    padding-top: 120px;
     display: flex;
     flex-direction: row;
     gap: 2px;
@@ -81,5 +81,52 @@ footer img {
     width: 15px;
     height: 15px;
     border-radius: 100px;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    text-align: center;
+    padding-top: 20px;
+  }
+  .profile-image {
+    position: static;
+    padding-top: 14px;
+  }
+  .profile-image img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+  }
+  footer {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 5px;
+  }
+  footer img {
+    width: 20px;
+    height: 20px;
+    border-radius: 100px;
+  }
+  .body {
+    position: static;
+    padding-top: 30px;
+    text-align: center;
+    max-width: 90%;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .text-1 {
+    font-size: x-small;
+  }
+  .heading-text {
+    font-size: small;
   }
 }
